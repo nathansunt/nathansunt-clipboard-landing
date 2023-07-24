@@ -1,0 +1,321 @@
+body{
+  background-image: url("images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  font-family: Bai Jamjuree;
+  margin: 0;
+}
+
+main{
+  display: grid;
+  padding-top: 7rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.logo, .logo3{
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+.text-container, .container1, .container2,
+.container3, .logo-container, .footer-links{
+  display: grid;
+  text-align: center;
+}
+
+.h1-text, .h1-text2, 
+.h1-text3,.h1-text4{
+  color: hsl(210, 10%, 33%);
+}
+
+.h2-text, .h2-text2, .h2-text3{
+  color:hsl(201, 11%, 66%);
+  font-weight: 400;
+  font-size: 1.063rem;
+  line-height: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+button{
+  color: white;
+  width: 327px;
+  font-family: Bai Jamjuree;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin: auto;
+  padding: .875rem 0;
+  margin-bottom: 1.5rem;
+  border-style: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.ios-button{
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 3px 1px hsla(170, 98%, 25%, 0.7);
+}
+
+.ios-button:hover{
+  background-color: hsl(171, 66%, 44%, .7);
+  transition: .2s;
+}
+
+.mac-button{
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 3px 1px hsla(233, 76%, 40%, 0.7);
+}
+
+.mac-button:hover{
+  background-color: hsl(233, 100%, 69%, .7);
+  transition: .2s;
+}
+
+.mac-image{
+  width: 90%;
+  justify-self: center;
+  margin-bottom: 2.5rem;
+}
+
+.h1-text2, .h1-text4{
+  font-size: 1.75rem;
+  margin-top: 8.625rem;
+}
+
+.h1-text3{
+  font-size: 1.5rem;
+  margin: .625rem 0rem;
+}
+
+.h2-text3{
+  margin-bottom: 2rem;
+}
+
+.device-image{
+  width: 90%;
+  justify-self: center;
+  margin-bottom: 0;
+}
+
+.icon{
+  justify-self: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.h1-text4{
+  margin-top: 7rem;
+}
+
+.logo2{
+  justify-self: center;
+  margin: 1.625rem 0;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  padding-top: 3rem ;
+}
+
+.footerh2, .footerh2-1, .footerh2-2,
+.footerh2-3, .footerh2-4{
+  color:hsl(203, 5%, 50%);
+  font-weight: 600;
+  font-size: 1.063rem;
+  cursor: pointer;
+}
+
+.social-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 13rem;
+  margin-top: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: hsl(200, 4%, 27%);
+}
+
+i{
+  font-size: 1.75rem;
+  cursor: pointer;
+}
+
+i:hover{
+  color: hsl(171, 66%, 44%);
+  transition: .2s;
+}
+
+.footerh2:hover, .footerh2-1:hover, .footerh2-2:hover,
+.footerh2-3:hover, .footerh2-4:hover{
+  color:hsl(171, 66%, 44%);
+  transition: .2s;
+}
+
+@media (min-width:376px){
+  body{
+    background-image: url("images/bg-header-desktop.png");
+  }
+}
+
+@media (min-width: 900px){
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo{
+    width: 8rem;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container1{
+    margin: 0 auto;
+    text-align: center;
+    width: 45rem;
+  }
+
+  .h1-text{
+    font-size: 2.75rem;
+  }
+
+  .h2-text{
+    font-size: 1.25rem;
+  }
+
+  button{
+    width: 14rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+
+  .container2{
+    margin: 0 auto;
+    text-align: center;
+    width: 45rem;
+  }
+
+  .h1-text2{
+    font-size: 2.125rem;
+  }
+
+  .h2-text2{
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+
+  .mac-image{
+    width: 105%;
+    display: inline-block;
+    margin-left: -3.5rem;
+  }
+
+  .container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  .container3-text{
+    width: 24rem;
+    padding-left: 7rem;
+    align-self: center;
+  }
+
+  .h2-text3{
+    margin-bottom: 4rem;
+    font-size: 1.063;
+    line-height: 1.75rem;
+  }
+
+  .device-image{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+  }
+
+  .h1-text4{
+    font-size: 2.125;
+  }
+
+  .workflow-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5rem;
+    padding: 0 1rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: baseline;
+  }
+
+  .h1-text3{
+    font-size: 1.5rem;
+  }
+
+  .logo-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 85%;
+    margin: 6rem auto 1.5rem;
+  }
+
+  .logo2{
+    margin: 0;
+    align-self: center;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: .5fr 1fr .6fr;
+    margin-top: 8rem;
+  }
+
+  .footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "a b c"
+    "d e f";
+    text-align: left;
+    width: 85%;
+  }
+
+  .footerh2-1{
+    grid-area: d;
+  }
+
+  .footerh2-2{
+    grid-area: b;
+  }
+
+  .footerh2-3{
+    grid-area: e;
+  }
+
+  .footerh2-4{
+    grid-area: c;
+  }
+
+  .social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10rem;
+    margin-left: 6.75rem;
+  }
+
+  .logo3{
+    margin-right: 7.5rem;
+    margin-bottom: 0;
+    align-self: center;
+  }
+}
